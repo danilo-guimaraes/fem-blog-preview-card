@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Kaushan+Script&family=Outfit:wght@100..900&family=Playwrite+NZ+Guides&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--Yellow);
+}
+
+main {
+    display: flex;
+    background-color: var(--White);
+    flex-direction: column;
+    border-radius: 13px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
+}
+
+main h1 {
+    font-size: 1.5em;
+}
+
+.tag {
+    display: flex;
+    background-color: var(--Yellow);
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.learning {
+    margin: auto;
+    padding: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.desc {
+    color: var(--Gray500);
+}
+
+.author-avatar {
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+}
+
+
+a:focus-visible {
+    outline: 3px solid hsl(228, 45%, 44%);
+    outline-offset: 3px;
+}
