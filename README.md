@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog Preview Card Solution](./screenshot.jpg)
+![Blog Preview Card Solution](preview.jpg)
 
 
 ## My Process
